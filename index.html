@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center bg-primary">
+            <h1>New York Times Search</h1>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header bg-primary">
+                Search Perameters
+            </div>
+            <div class="card-body">
+
+                <form>
+                    <div class="form-group">
+                        <label for="searchterms">Search Terms</label>
+                        <input type="text" class="form-control" id="search-terms" placeholder="Enter search terms">
+                        <small id="SearchHelp" class="form-text text-muted">Enter your search terms for the articles
+                            you want to retrieve.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="records">Number of Records</label>
+                        <select class="form-control" id="article-number">
+                            <option>1</option>
+                            <option>5</option>
+                            <option>10</option>
+                        </select>
+                        <small id="recordHelp" class="form-text text-muted">Select the number of records you wish to
+                            show.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="startyear">Start Year (Optional)</label>
+                        <input type="text" class="form-control" id="start-year-search" placeholder="Start Year">
+                        <small id="startHelp" class="form-text text-muted">Enter the year you want to start searching
+                            from.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="endyear">End Year (Optional)</label>
+                        <input type="text" class="form-control" id="end-year-search" placeholder="End Year">
+                        <small id="endHelp" class="form-text text-muted">Enter the year you want to end your search.</small>
+                    </div>
+
+                    <button id="search-submit" class="btn btn-primary">Search</button>
+                    <button id="clear-results" class="btn btn-primary">Clear Results</button>
+                </form>
+
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-header bg-primary">
+                Top Articles
+            </div>
+            <div class="card-body" id="articles">
+               
+            </div>
+        </div>
+        <br>
+        <br>
+
+ 
+
+            <script>
+
+            </script>
+            
+  
+    </div>
+
+   
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jQuery.js"></script>
+
+</body>
+
+</html>
